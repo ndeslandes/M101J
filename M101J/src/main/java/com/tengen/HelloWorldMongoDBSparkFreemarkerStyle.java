@@ -15,32 +15,32 @@ import java.io.StringWriter;
 import java.net.UnknownHostException;
 
 public class HelloWorldMongoDBSparkFreemarkerStyle {
-   public static void main(String[] args) throws UnknownHostException {
-      final Configuration configuration = new Configuration();
-      configuration.setClassForTemplateLoading(HelloWorlSparkFreeMakerStyle.class, "/");
+    public static void main(String[] args) throws UnknownHostException {
+        final Configuration configuration = new Configuration();
+        configuration.setClassForTemplateLoading(HelloWorlSparkFreeMakerStyle.class, "/");
 
-      final MongoClient client = new MongoClient();
+        final MongoClient client = new MongoClient();
 
-      DB database = client.getDB("course");
-      final DBCollection collection = database.getCollection("hello");
+        DB database = client.getDB("course");
+        final DBCollection collection = database.getCollection("hello");
 
-      Spark.get(new Route("/") {
-         @Override
-         public Object handle(Request request, Response response) {
-            StringWriter writer = new StringWriter();
-            try {
-               Template helloTemplate = configuration.getTemplate("hello.ftl");
+        Spark.get(new Route("/") {
+            @Override
+            public Object handle(Request request, Response response) {
+                StringWriter writer = new StringWriter();
+                try {
+                    Template helloTemplate = configuration.getTemplate("hello.ftl");
 
-               DBObject document = collection.findOne();
+                    DBObject document = collection.findOne();
 
-               helloTemplate.process(document, writer);
+                    helloTemplate.process(document, writer);
 
-            } catch (Exception e) {
-               halt(500);
-               e.printStackTrace();
+                } catch (Exception e) {
+                    halt(500);
+                    e.printStackTrace();
+                }
+                return writer;
             }
-            return writer;
-         }
-      });
-   }
+        });
+    }
 }

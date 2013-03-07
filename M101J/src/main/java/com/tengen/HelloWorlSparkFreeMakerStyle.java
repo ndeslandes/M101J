@@ -12,28 +12,28 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class HelloWorlSparkFreeMakerStyle {
-   public static void main(String[] args) {
-      final Configuration configuration = new Configuration();
-      configuration.setClassForTemplateLoading(HelloWorlSparkFreeMakerStyle.class, "/");
+    public static void main(String[] args) {
+        final Configuration configuration = new Configuration();
+        configuration.setClassForTemplateLoading(HelloWorlSparkFreeMakerStyle.class, "/");
 
-      Spark.get(new Route("/") {
-         @Override
-         public Object handle(Request request, Response response) {
-            StringWriter writer = new StringWriter();
-            try {
-               Template helloTemplate = configuration.getTemplate("hello.ftl");
-               Map<String, Object> helloMap = new HashMap<String, Object>();
-               helloMap.put("name", "Freemarker");
+        Spark.get(new Route("/") {
+            @Override
+            public Object handle(Request request, Response response) {
+                StringWriter writer = new StringWriter();
+                try {
+                    Template helloTemplate = configuration.getTemplate("hello.ftl");
+                    Map<String, Object> helloMap = new HashMap<String, Object>();
+                    helloMap.put("name", "Freemarker");
 
-               helloTemplate.process(helloMap, writer);
-               System.out.println(writer);
+                    helloTemplate.process(helloMap, writer);
+                    System.out.println(writer);
 
-            } catch (Exception e) {
-               halt(500);
-               e.printStackTrace();
+                } catch (Exception e) {
+                    halt(500);
+                    e.printStackTrace();
+                }
+                return writer;
             }
-            return writer;
-         }
-      });
-   }
+        });
+    }
 }

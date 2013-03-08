@@ -34,15 +34,39 @@ Week 1 - Introduction
 
 Week 2 - CRUD
 
-05/06/2013 12h00-12h15
+05/03/2013 12h00-12h15
     Introduction to Week 2
     CRUD and the Mongo Shell
     Secrets of the Mongo Shell
 
-06/06/2013 20h30-21h30
+06/03/2013 20h30-21h30
     BSON Introduced
     Mongo Shell, inserting docs
     Mongo Shell, introduction to findOne
     Mongo Shell, introduction to find
     Mongo Shell, querying using field selection
     Querying using $gt and $lt
+
+08/03/2013 13H00-17h00
+   Inequalities on strings
+   Using $regex, $exists, $type
+   Using $or
+   Using $and
+   Querying inside arrays
+   Using $in and $all
+   Queries with dot notation
+   Querying, cursors
+   Counting results
+   Wholesale Updating of a Document
+   Using the $set command
+   Using the $unset command
+   Using the $push, $pop, $pull, $pushAll, $pullAll, $addToSet
+   Multi-update
+   Removing data
+   getLastError
+   Java driver:representing documents
+   Java driver:insert
+   Java driver:find, findOne, count
+   Java driver:query criteria
+   Java driver:field selection
+   Java driver:dot notation

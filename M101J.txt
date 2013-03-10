@@ -70,3 +70,8 @@ Week 2 - CRUD
    Java driver:query criteria
    Java driver:field selection
    Java driver:dot notation
+
+10/03/2013 9h00-9h45
+Java driver: sort, skip and limit
+Java driver: update and remove
+Java driver: find and modify

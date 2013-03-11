@@ -3,11 +3,11 @@
    <modelVersion>4.0.0</modelVersion>
 
    <groupId>com.tengen</groupId>
-   <artifactId>M101J</artifactId>
+   <artifactId>M101J-example</artifactId>
    <version>1.0-SNAPSHOT</version>
    <packaging>jar</packaging>
 
-   <name>M101J</name>
+   <name>M101J-example</name>
    <url>http://maven.apache.org</url>
 
    <properties>

@@ -72,6 +72,18 @@ Week 2 - CRUD
    Java driver:dot notation
 
 10/03/2013 9h00-9h45
-Java driver: sort, skip and limit
-Java driver: update and remove
-Java driver: find and modify
+    Java driver: sort, skip and limit
+    Java driver: update and remove
+    Java driver: find and modify
+
+10/03/2013 19h00-21h00
+    Blog, User Interface
+    Blog, Session Management
+    Blog, Internals
+    Python Eats Java
+    Installing Python on Windows
+    Installing Pymongo, Windows
+    Installing Pymongo, Mac
+    Homework 2.1
+    Homework 2.2
+    Homework 2.3

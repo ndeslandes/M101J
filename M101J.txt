@@ -87,3 +87,21 @@ Week 2 - CRUD
     Homework 2.1
     Homework 2.2
     Homework 2.3
+
+Week 3 - Schema Design
+
+12/03/2013 20h30-22h00
+    Introduction to Week 3
+    MongoDB Schema Design
+    Relational Normalization
+    Mongo Design for Blog
+    Alternative Schema for Blog
+    Living Without Constraints
+    Living Without Transaction
+    One to One Relations
+    One to Many Relations
+    Many to Many Relations
+    Multikeys
+    Benefits of Embedding
+    Trees
+    When to Denormalize

@@ -1,37 +1,3 @@
-Week 1 - Introduction
-28/02/2013  09h00-11H00
-    Welcome to M101J
-    What is MongoDB?
-    Mongo Relative to Relational
-    Overview of Building an app with Mongo
-    Quick Introduction to the Mongo Shell
-    JSON introduced
-    System Requirements
-    Installing MongoDB
-    Installing and Using Maven
-    The MongoDB Java Driver
-    Intro to the Spark Web Application Framework
-    Intro to the Freemarker Templating Engine
-    Spark and Freemarker together
-    All together now: MongoDB, Spark, and Freemarker
-    Spark framework: handling GET requests
-    Spark framework: handling POST requests
-    Mongo is Schemaless
-    JSON Revisited
-    JSON Arrays
-    JSON Subdocuments
-    JSON Spec
-
-28/02/2013  12h30-13h00
-    Introduction to our class project, the blog
-    Blog in Relational Tables
-    Blog in Documents
-    Intro to Schema Design
-    Homework 1.1
-    Homework 1.2
-    Homework 1.3
-    Homework 1.4
-
 Week 2 - CRUD
 
 05/03/2013 12h00-12h15
@@ -87,21 +53,3 @@ Week 2 - CRUD
     Homework 2.1
     Homework 2.2
     Homework 2.3
-
-Week 3 - Schema Design
-
-12/03/2013 20h30-22h00
-    Introduction to Week 3
-    MongoDB Schema Design
-    Relational Normalization
-    Mongo Design for Blog
-    Alternative Schema for Blog
-    Living Without Constraints
-    Living Without Transaction
-    One to One Relations
-    One to Many Relations
-    Many to Many Relations
-    Multikeys
-    Benefits of Embedding
-    Trees
-    When to Denormalize

@@ -15,3 +15,8 @@ Week 3 - Schema Design
     Benefits of Embedding
     Trees
     When to Denormalize
+
+13/03/2013 21h15-21h45
+    Handling Blobs
+    Learn more about GridFS
+    Sidebar: Importing from a Twitter feed

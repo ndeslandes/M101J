@@ -16,7 +16,12 @@ Week 3 - Schema Design
     Trees
     When to Denormalize
 
-13/03/2013 21h15-21h45
+13/03/2013 21h15-22h00
     Handling Blobs
     Learn more about GridFS
     Sidebar: Importing from a Twitter feed
+    HW 3.1
+
+14/03/2013 8h30-9h30
+    HW 3.1
+    HW 3.2

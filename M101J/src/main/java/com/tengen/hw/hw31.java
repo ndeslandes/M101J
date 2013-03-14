@@ -18,14 +18,26 @@ public class hw31 {
             while (cursor.hasNext()) {
                 DBObject student = cursor.next();
                 List<DBObject> scores = (List<DBObject>) student.get("scores");
-                for (DBObject scoreDoc : scores) {
-                    String type = (String) scoreDoc.get("type");
-                    Double score = (Double) scoreDoc.get("score");
-
-                }
+                DBObject lowestHomeworkScoreDoc = getLowestHoweworkScoreDocument(scores);
+                scores.remove(lowestHomeworkScoreDoc);
+                students.update(student, new BasicDBObject("$set", new BasicDBObject("scores", scores)));
             }
         } finally {
             cursor.close();
         }
+    }
+
+    private static DBObject getLowestHoweworkScoreDocument(List<DBObject> scores) {
+        DBObject lowestHomeworkScoreDoc = null;
+        for (DBObject scoreDoc : scores) {
+            String type = (String) scoreDoc.get("type");
+            if (type.equals("homework")) {
+                Double score = (Double) scoreDoc.get("score");
+                if (lowestHomeworkScoreDoc == null || score < (Double) lowestHomeworkScoreDoc.get("score")) {
+                    lowestHomeworkScoreDoc = scoreDoc;
+                }
+            }
+        }
+        return lowestHomeworkScoreDoc;
     }
 }

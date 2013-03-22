@@ -1,0 +1,7 @@
+Week 4 - Performance
+
+21/03/2013 22h00-22h30
+    Introduction
+    Indexes
+    Creating Indexes
+    Discovering indexes

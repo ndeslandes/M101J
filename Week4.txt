@@ -28,3 +28,9 @@ Week 4 - Performance
     Mongotop
     Mongostat
     Sharding Overview
+
+22/03/2013 13h00-14h00
+    HW 4.1
+    HW 4.2
+    HW 4.3
+    HW 4.4

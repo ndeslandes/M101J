@@ -5,3 +5,26 @@ Week 4 - Performance
     Indexes
     Creating Indexes
     Discovering indexes
+
+22/03/2013 08h30-10h15
+    Multikey Indexes
+    Multikey Continued
+    Index Creation option, Unique
+    Index Creation, Removing Dups
+    Index Creation, Sparse
+    Index Creation, Background
+    Using Explain
+    When is an index used?
+    How large is your index?
+    Index Cardinality
+    Index Selectivity
+    Hinting an Index
+    Hinting in Java
+    Efficiency of Index Use
+    Geospatial Indexes
+    Geospatial Spherical
+    Logging Slow Queries
+    Profiling
+    Mongotop
+    Mongostat
+    Sharding Overview

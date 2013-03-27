@@ -1,0 +1,31 @@
+Week 5 - Aggregation
+
+26/03/2013 20h00-22h30
+    Introduction to Aggregation
+    Simple Aggregation Example
+    The Aggregation Pipeline
+    Simple Example Expanded
+    Compound Grouping
+    Using a document for _id
+    Aggregation Expressions
+    Using $sum
+    Using $avg
+    Using $addToSet
+    Using $push
+    Using $max and $min
+    Double $group stages
+    $project
+    $match
+    $sort
+    $limit and $skip
+    Revisiting $first and $last
+    $unwind
+    $unwind example
+    Double unwind
+    Mapping between SQL and Aggregation
+    Some Common SQL examples
+    Limitations of the Aggregation Framework
+    HW 5.1
+    HW 5.2
+    HW 5.3
+    HW 5.4

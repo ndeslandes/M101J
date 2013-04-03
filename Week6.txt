@@ -1,0 +1,8 @@
+Week 6 - Application Engineering
+
+03/04/2013 9h00-9h30
+    Introduction
+    Network Errors
+    Introduction to Replication
+    Replica Set Elections
+    Write Consistency

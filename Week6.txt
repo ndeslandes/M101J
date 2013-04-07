@@ -6,3 +6,22 @@ Week 6 - Application Engineering
     Introduction to Replication
     Replica Set Elections
     Write Consistency
+
+07/04/2013 15h30-17h00
+    Creating a Replica Set
+    Replica Set Internals
+    Failover and Rollback
+    Connecting to a Replica Set using the Java driver
+    Bad Things Happen to Good Nodes
+    Write Concern
+    Read Preference.
+    Introduction to Sharding
+    Buildind a Sharded Environment
+    Implications of Sharding
+    Sharding + Replication
+    Choosing a Shard Key
+    HW 6.1
+    HW 6.2
+    HW 6.3
+    HW 6.4
+    HW 6.5
